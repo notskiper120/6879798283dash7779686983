@@ -5,7 +5,7 @@ local TweenService = game:GetService("TweenService")
 local function safeCaption(text)
     pcall(function()
         local mainGame = game.Players.LocalPlayer.PlayerGui:WaitForChild("MainUI"):WaitForChild("Initiator"):WaitForChild("Main_Game")
-        require(mainGame).caption(text, true)
+        require(mainGame).capt====ion(text, true)
     end)
 end
 
